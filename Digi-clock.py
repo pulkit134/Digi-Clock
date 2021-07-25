@@ -7,7 +7,6 @@ def times():
 	clock.config(text=current_time)
 	clock.after(200,times)
 
-
 root=Tk()
 root.geometry("500x250")
 clock=Label(root,font=("times",50,"bold"),bg="#8FBC8F")
